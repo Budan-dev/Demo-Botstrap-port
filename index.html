@@ -1,0 +1,158 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="bootstrap.css">
+    <script src="https://kit.fontawesome.com/7e035eba5a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <style>
+        body{
+          background: #8e9eab;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #eef2f3, #8e9eab);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #eef2f3, #8e9eab); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: monospace;
+            color: #fff;
+        }
+        
+        .row{
+            background: transparent;
+        }
+        .card{
+          box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1);
+          background: #F1F2B5;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #135058, #F1F2B5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #135058, #F1F2B5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+            font-family: monospace;
+          border-radius: 20px 40px;
+           }
+        .mouse{
+            background: #000000;  /* fallback for old browsers */
+            background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+            background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+            color: #fff;
+        }
+        .btn{
+          background: #0F2027;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+          
+          color: aliceblue;
+          border-radius:  20px 40px;
+        }
+        hr{
+          width: 100%;
+          color: #000000;
+          margin-top: 50px;
+        }
+        .dark{
+          border-radius: 10px;
+          background-color: #0F2027;
+          color: #fff;
+          width: 80px;
+          font-size: 15px;
+          
+        }
+        .made{
+          background: #0F2027;
+          color: #fff;
+        }
+        b{
+          color: blueviolet;
+          font-size: 24px;
+          
+        }
+        
+    </style>
+    <nav class="navbar navbar-expand-lg navbar-light text-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><b>BUDAN </b> /softwareEngineer</a>
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+              <li class="nav-item">
+                <a class="nav-link active " aria-current="page" href="#">ABOUT ME</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="#">RESUME</a>
+              </li>
+                <li class="nav-item">
+                <a class="nav-link  active" aria-current="page" href="#">CONTACT</a>
+              </li>
+              <li>
+                <button class="dark">DARKMODE</button>
+              </li>
+            </ul>
+            
+          </div>
+        </div>
+      </nav>
+
+
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+      <div class="row  justify-content-center my-5">
+        <div class="col-md-4">
+          <div class="card border-dark">
+            <div class="card-body shadow-lg p-3">
+                <h3>Hi !</h3>
+              <p class="card-text">I'm Bababudan suleman.<br>
+                a Front-End Developer
+                </p>
+             
+              <a class="btn " role="button" href="#">
+            RESUME
+</a>
+<a class="btn" role="button" href="#">PROJECTS</a>
+            </div>
+          </div>
+          
+     
+
+
+    
+<hr>
+
+
+
+        <div class="container my-5">
+            <footer class="blockquote-footer text-center" >
+              <p>
+                © Copyright 2021-2022 All rights reserved. Developed by BUDAN.
+              </p>
+              <p>Contact us on social media platforms <a href="#"><i class="fab fa-instagram-square fa-lg"></i></a> <a href = "https://twitter.com/budan_dev" target="blank"><i class="fab fa-twitter"></i></a> </p>
+            </footer>
+          </div>
+
+
+<script src="bootstrap.bundle.js"></script>
+    <script src="jquery-3.6.0.js"></script>
+    
+    <script>
+      $(".dark").click(function(){
+        $("body").toggleClass("made");
+      })
+       
+
+    </script>
+</body>
+</html>
