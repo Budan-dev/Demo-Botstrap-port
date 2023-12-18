@@ -14,9 +14,10 @@
 - It includes metadata such as character set, viewport settings, and a link to the Bootstrap CSS framework.
 - The FontAwesome library is linked for access to icon fonts.
 - The body of the HTML file contains the content of the webpage, including navigation, cards, and a footer.
-
+![Local Image](images/Fullpage.png){ width="100px" }
 ## CSS Styling (style):
-
+- Custom Responsive mobile view for different mobile devices.
+![Local Image](images/Mobileview.png){ width="100px" }
 - Custom styles are defined within the style tags in the HTML file.
 - The styles include background gradients, card styling, button styling, and color schemes to enhance the visual appeal of the webpage.
 
@@ -24,8 +25,9 @@
 
 - A responsive navigation bar is implemented using Bootstrap components.
 - It includes links to different sections of the portfolio such as "ABOUT ME," "RESUME," and "CONTACT."
+![Local Image](images/Navigation.png){ width="100px" }
 - A "DARKMODE" button is provided to toggle a dark mode feature.
-
+![Local Image](images/Darkmode.png){ width="100px" }
 ## Footer:
 
 - A simple footer is included at the bottom of the webpage.
